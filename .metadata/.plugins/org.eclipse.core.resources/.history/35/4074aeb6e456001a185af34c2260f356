@@ -1,0 +1,30 @@
+package jdbcprograms;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestSpringJdbc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ApplicationContext ctx=new ClassPathXmlApplicationContext("applicationframework.xml");
+EmployeeDao dao=(EmployeeDao)ctx.getBean("edao");
+Employee emp=new Employee();
+emp.setEmpid("1010");
+emp.setEname("vanya");
+emp.setDept("testing");
+emp.setDesg("tester");
+emp.setEmail("vanya@gamil,.com");
+/*int status=dao.saveEmployee(emp);
+System.out.println(status);
+System.out.println("records inserted");*/
+
+
+Employee e=new Employee();
+e.setEmpid("1002");
+int statu=dao.deleteEmployee(e);
+System.out.println(statu);
+
+	}
+
+}

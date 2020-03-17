@@ -1,0 +1,12 @@
+package autowiring;
+
+import org.springframework.context.ApplicationContext;
+
+public class TestAutowiring {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ApplicationContext context=new ClassPathXmlApplicationContext("autowire.xml");
+		EmployeeBean emloyee=(EmloyeeBean)context.getBean("emloyee");
+		System.out.println(emloyee.getFullName());
+		System.out.println(emloyee.getDepartmentBean().getName());
+}

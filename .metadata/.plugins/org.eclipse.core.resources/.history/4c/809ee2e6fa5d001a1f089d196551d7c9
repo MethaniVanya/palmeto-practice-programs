@@ -1,0 +1,21 @@
+package utilities;
+
+import java.util.List;
+
+public class TravelAgency {
+
+	
+	List<Package> findPackagesWithMinimumNumberOfDays()
+	{
+		return null;
+	}
+	boolean validate(String packageId)
+	{
+		return false;
+	}
+	
+	List<Package> generatePackageCost (String filePath)
+	{
+		return null;
+	}
+}

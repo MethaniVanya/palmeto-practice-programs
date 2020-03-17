@@ -1,0 +1,57 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import data.Employee;
+
+public class Employeedao {
+	public static Connection getConnection()  {
+		Connection con=null;
+		try {
+		
+		DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+		Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/cts","root","root");
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+		
+		
+		
+		return con;
+		
+	}
+	public void insertEmployee(Employee emp) {//inserts into DB
+		
+	}
+	public List<Employee> showEmployees() {//connect to database and do operations
+		
+		List<Employee> list=new ArrayList<Employee>();
+		
+		try {
+			Connection con=getConnection();
+			Statement ps=con.createStatement();
+			ResultSet rs=ps.executeQuery("select * from emp");
+			while(rs.next()) {
+				Employee u=new Employee();
+				u.setid(rs.getString(1));
+				u.setname(rs.getString(2));
+				u.setDept(rs.getString(3));
+				u.setDesg(rs.getString(4));
+				u.setEmailid(rs.getString(5));
+				list.add(u);
+				
+			}
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+		
+		return list;
+	}
+
+}

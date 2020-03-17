@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;HelloBean.java&apos; to &apos;SpringTest/src/main/java/com.examples&apos;&#x0D;&#x0A;- Original project: &apos;SpringTest&apos;&#x0D;&#x0A;- Destination element: &apos;SpringTest/src/main/java/com.examples&apos;&#x0D;&#x0A;- Original element: &apos;HelloBean.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;com.examples" element1="/src\/main\/java&lt;{HelloBean.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1584420359437" units="1" version="1.0"/>
+</session>

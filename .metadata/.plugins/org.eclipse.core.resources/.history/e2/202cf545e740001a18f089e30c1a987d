@@ -1,0 +1,23 @@
+import java.sql.*;
+import java.util.Scanner;
+public class PreparedStatementexample 
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		try
+		{
+			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+			Connection connection=DriverManager.getConnection
+					("jdbc:mysql://localhost:3306/cts","root","root");
+			Statement statement=connection.createStatement();
+			String query="insert into staff values  ('hello','879','cse')";
+			PreparedStatement pst=connection.prepareStatement(query);
+			Scanner sc=new Scanner(System.in);
+			
+		}
+
+	}
+
+}

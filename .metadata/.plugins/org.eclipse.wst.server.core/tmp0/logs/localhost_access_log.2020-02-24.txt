@@ -1,0 +1,10 @@
+127.0.0.1 - - [24/Feb/2020:16:25:10 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:25:11 +0530] "GET /JspExamples/Index1.html HTTP/1.1" 200 307
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:25:37 +0530] "GET /JspExamples/Page.jsp?uname=monica&age=23 HTTP/1.1" 200 330
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:28:06 +0530] "GET /JspExamples/movieIndex.jsp HTTP/1.1" 200 439
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:28:13 +0530] "GET /JspExamples/Page.jsp?uname=monica&age=2 HTTP/1.1" 200 328
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:38:51 +0530] "GET /JspExamples/movieIndex.jsp HTTP/1.1" 200 439
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:39:30 +0530] "GET /JspExamples/Page.jsp?uname=Sruthi&age=10 HTTP/1.1" 200 330
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:45:19 +0530] "GET /JspExamples/movieIndex.jsp HTTP/1.1" 200 439
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:46:58 +0530] "GET /JspExamples/Page.jsp?uname=vanya&age=21 HTTP/1.1" 200 329
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:47:43 +0530] "GET /JspExamples/movieIndex.jsp HTTP/1.1" 200 439

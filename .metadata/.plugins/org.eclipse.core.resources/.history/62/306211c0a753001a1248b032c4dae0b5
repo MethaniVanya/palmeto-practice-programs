@@ -1,0 +1,10 @@
+package springexamples;
+
+public class QuestionBank {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

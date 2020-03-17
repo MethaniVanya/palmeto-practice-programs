@@ -1,0 +1,10 @@
+package springexamples;
+
+import java.util.List;
+
+public class Example {
+
+	int qid;
+	String question;
+	Map<String> answers;
+}

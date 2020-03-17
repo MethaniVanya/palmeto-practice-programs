@@ -1,0 +1,11 @@
+INDEX VERSION 1.130
+D:\cts44\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1065134020.index
+\JspExamples\src
+D:\cts44\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\86778755.index
+\MVC\src
+D:\cts44\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1180798568.index
+\Training\src
+D:\cts44\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2340018122.index
+\BankTransactions\src
+D:\cts44\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2286319862.index
+\JSTL\src

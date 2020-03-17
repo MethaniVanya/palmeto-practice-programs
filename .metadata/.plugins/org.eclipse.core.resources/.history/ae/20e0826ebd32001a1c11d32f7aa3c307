@@ -1,0 +1,15 @@
+
+public class UserMainCode {
+	 
+	public static void main(String args[])
+	{
+		int n=123,sum=0,res=0,i;
+		for(i=1;i<=n;i++)
+		{
+	      sum=n%10;
+	      res=sum+res;
+	    }
+     System.out.println(+res);
+	}
+
+}

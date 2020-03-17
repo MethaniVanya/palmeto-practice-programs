@@ -1,0 +1,18 @@
+package autowiring;
+
+public class HelloWorld {
+
+	private String message;
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	public void showData()
+	{
+		System.out.println("this will show data");
+	}
+}

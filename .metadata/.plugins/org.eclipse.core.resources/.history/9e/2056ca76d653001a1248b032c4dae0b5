@@ -1,0 +1,16 @@
+package configs;
+
+import org.springframework.context.annotation.Bean;
+
+public class HelloWorldConfig {
+
+	public HelloWorld helloworld()
+	{
+		return new HelloWorld();
+	}
+	@Bean
+	public Employee emp()
+	{
+	return new Employee("844344", "monica");
+	}
+}

@@ -1,0 +1,17 @@
+package dao;
+import java.util.List;
+
+import data.Employee;
+public class Employeedao
+{
+	public void getConnection()
+	{
+		
+	}
+	public void insertEmployee(Employee emp)
+	{
+		
+	}
+	public List
+
+}

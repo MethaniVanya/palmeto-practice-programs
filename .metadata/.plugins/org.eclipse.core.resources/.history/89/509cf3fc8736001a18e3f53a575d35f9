@@ -1,0 +1,8 @@
+
+public class InnerDemo {
+	public Interface One
+	{
+		public void greater(int e,int f);
+	}
+
+}

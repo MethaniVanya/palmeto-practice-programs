@@ -1,0 +1,14 @@
+package eventlisteners;
+
+import org.springframework.context.ApplicationListener;
+import org.springframework.context.event.ContextStopedEvent;
+
+public class CStopEventHandler implements ApplicationListener<ContextStopedEvent>
+{
+	public void  onApplicationEvent(ContextStopedEvent event)
+	{
+		System.out.println("context stoped evnt received");
+	}
+
+}
+

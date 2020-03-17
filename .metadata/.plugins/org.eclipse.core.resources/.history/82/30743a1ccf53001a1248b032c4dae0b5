@@ -1,0 +1,14 @@
+package autowiring;
+
+public class DepartmentBean {
+ 
+	private String name;
+	Private String getName()
+	{
+		return name;
+	}
+	public void setName(String name)
+	{
+		this.name=name;
+	}
+}

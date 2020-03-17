@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("enter first number");
+		System.out.println("enter second number");
+		System.out.println("enter third number");
+		int a=scanner.nextInt();
+		int b=scanner.nextInt();
+		int c=scanner.nextInt();
+		
+
+	}
+
+}

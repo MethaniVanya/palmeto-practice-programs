@@ -1,0 +1,8 @@
+
+public class UserMainCode2 {
+	 public static int findRoots(int a,int b, int c)
+	 {
+		 return 0;
+	 }
+
+}

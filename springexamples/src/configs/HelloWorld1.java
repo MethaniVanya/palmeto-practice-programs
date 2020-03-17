@@ -1,0 +1,22 @@
+package configs;
+
+public class HelloWorld1 {
+
+	private String message;
+
+	
+	public void  getMessage() {
+		System.out.println("your message"+message);
+	}
+
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+
+	public void showData()
+	{
+		System.out.println("this will show data");
+	}
+}

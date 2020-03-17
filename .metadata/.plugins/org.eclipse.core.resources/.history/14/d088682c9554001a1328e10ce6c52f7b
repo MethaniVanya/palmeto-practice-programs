@@ -1,0 +1,26 @@
+package jdbcprograms;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class CustomMain
+{
+public static void main(String[] args)
+{
+// TODO Auto-generated method stub
+ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
+
+EmployeeDao dao=(EmployeeDao)context.getBean("edao");
+Employee emp=new Employee();
+emp.setEmpid("1006");
+emp.setEname("Sravanthi");
+emp.setDept("Testing");
+emp.setDesg("Tester");
+emp.setEmail("sravanthisanaka@gmail.com");
+
+int status=dao.saveEmployee(emp);
+System.out.println(status);
+System.out.println("Record Inserted");
+}
+
+}

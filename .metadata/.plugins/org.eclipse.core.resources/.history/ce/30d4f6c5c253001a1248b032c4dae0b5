@@ -1,0 +1,15 @@
+package setterexamples;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+	public class Inherittest {
+		
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			ApplicationContext context=new ClassPathXmlApplicationContext("Collection.xml");
+			 Inhert q1=(Inhert)context.getBean("qs");
+			 q1.showAnswers();
+		}
+
+	}

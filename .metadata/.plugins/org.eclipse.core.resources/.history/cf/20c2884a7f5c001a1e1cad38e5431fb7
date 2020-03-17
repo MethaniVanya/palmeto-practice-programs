@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<ul>
+  <li><a href="home.html" target="display">Home</a></li>
+  <li><a href="news.asp" target="display">About</a></li>
+  <li><a href="contact.asp" target="display">service</a></li>
+  <li><a href="Login.html" target= "display">login</a></li>
+</ul>
+</body>
+</html>

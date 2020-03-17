@@ -1,0 +1,22 @@
+package dao;
+import java.util.List;
+
+import data.Employee;
+public class Employeedao
+{
+	public static Connection getConnection()
+	{
+		return null;
+		
+	}
+	
+	public void insertEmployee(Employee emp)
+	{
+		
+	}
+	public List<Employee>showEmployees()
+	{
+		return null;
+	}
+
+}

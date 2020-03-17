@@ -1,0 +1,13 @@
+
+public class SingleTonEnxample {
+	
+	public static SingleTonExample singleton=new SingleTonExamle();
+	private SingleTonExample()
+	{
+		System.out.println("inside the private constructor");
+	}
+	public static SingleTonExample getInstance()
+	{
+		return SingleTonExample();
+	}
+}

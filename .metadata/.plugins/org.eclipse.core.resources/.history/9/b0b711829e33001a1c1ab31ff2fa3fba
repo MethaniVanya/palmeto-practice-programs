@@ -1,0 +1,9 @@
+
+public class FunOverLoading {
+	
+	public int area(int a)
+	{
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package main;
+
+import org.springframework.context.ApplicationContext;
+
+public class TestStudent {
+	public static void main(String[] args)
+	{
+		ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
+				StudentDaoImpl sdao=(StudentDaoImpl)context.getBean("edao");
+				System.out.println("enter student id");
+				int id=sc.nextInt();
+				system.out.println("enter student nmame");
+				String name=sc.next();
+				system.out.println("enter student age");
+			  int age=sc.nextInt();	
+	}
+
+}

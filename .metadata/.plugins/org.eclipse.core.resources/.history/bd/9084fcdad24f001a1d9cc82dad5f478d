@@ -1,0 +1,6 @@
+package springexamples;
+
+public class TestSpring2 {
+	ApplicationContext context=new ClassPathXmlApplicationContext("bean2.xml");
+
+}

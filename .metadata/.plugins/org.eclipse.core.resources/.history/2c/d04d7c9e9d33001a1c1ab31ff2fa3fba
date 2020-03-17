@@ -1,0 +1,18 @@
+
+public class ShowCount
+{
+	static int objects=0;
+	{
+		objects+=1;
+	}
+  public Test()
+  {
+  }
+  public Test( int n)
+  {
+  }
+  public Test(String s)
+  {
+  }
+
+}

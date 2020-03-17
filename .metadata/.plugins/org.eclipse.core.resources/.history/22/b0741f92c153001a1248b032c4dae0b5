@@ -1,0 +1,8 @@
+package setterexamples;
+
+public class Collection {
+	
+	String id;
+	String name;
+	
+}

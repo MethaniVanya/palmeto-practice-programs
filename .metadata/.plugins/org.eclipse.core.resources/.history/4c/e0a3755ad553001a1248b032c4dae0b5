@@ -1,0 +1,16 @@
+package configs;
+
+import org.springframework.context.ApplicationContext;
+
+public class TestMain {
+
+	
+	public static void main(String[] args)
+	{
+		ApplicationContext context=new AnnotationConfigApplicationContext(HelloWorldConfig.class);
+		HelloWorld helloworld=context.getBean(HelloWorld.class);
+		helloworld.setMessage("helloworld");
+		helloworld.getMessage();
+		helloworld.showData();
+	}
+}

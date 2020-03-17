@@ -1,0 +1,47 @@
+package utilities;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class TravelAgency {
+
+	List<Package> generatePackageCost (String filePath) throws SQLException,IOException
+	{
+		int discount=0;
+		try {
+			connection=DBHandler.establishConnection();
+		}catch (ClassNotfoundException e)
+		{
+			e.printStrackTrace();
+		}
+		String sql=" insert into package_details values(?,?,?,?,?)";
+		PreparedStatement pst=connection.prepareStatement(sql);
+		FileInputStream fstream =new FileInputStream(filePath);
+		DataInputStream in =new DataInputStream(fstream);
+		BufferedReader br =new BufferedReader(new InputStreamReader(in));
+		String strLine;
+		ArrayList<E> list=new ArrayList();
+		try {
+			while((strLine=br.readLine())!=null)
+			{
+				list.add(strLine);
+				
+			}
+		}
+		
+	}
+	
+	List<Package> findPackagesWithMinimumNumberOfDays()
+	{
+		return null;
+	}
+	boolean validate(String packageId)
+	{
+		return false;
+	}
+	
+	
+}

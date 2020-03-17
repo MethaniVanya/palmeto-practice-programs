@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="https://localhost:8081/Webproject/loginServlet">
+Name:<input type="text" name="name"><br>
+Department:<input type="text" name="dept"><br>
+Designation:<input type="text" name="dept">
+<br><input type="submit" value="submit">
+</form>
+</body>
+</html>

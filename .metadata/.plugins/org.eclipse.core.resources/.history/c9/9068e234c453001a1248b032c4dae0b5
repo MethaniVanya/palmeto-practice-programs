@@ -1,0 +1,16 @@
+package inheritance;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+	public class inheritance {
+		
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			ApplicationContext context=new ClassPathXmlApplicationContext("InheritBean.xml");
+			 Inherit q1=(Inherit)context.getBean("qs");
+			 
+			
+		}
+
+	}

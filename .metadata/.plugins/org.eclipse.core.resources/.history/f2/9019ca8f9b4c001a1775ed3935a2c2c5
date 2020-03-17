@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" import="java.sql.*"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+String uno=request.getParameter("enum");
+String uname=request.getParameter("enam");
+String ujob=request.getParameter("ejob");
+String umgr=request.getParameter("emgr");
+String uhd=request.getParameter("ehd");
+String usal=request.getParameter("esal");
+String ucomm=request.getParameter("ecom");
+String udept=request.getParameter("edept");
+DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/cts","root","root");
+String sql ="UPDATE emp SET empno='uno',ename='uname',job='ujob',mgr='umgr',hiredate='uhd',sal='usal',comm='ucomm',deptno='udept'";
+%>
+</body>
+</html>

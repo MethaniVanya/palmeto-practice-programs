@@ -1,0 +1,17 @@
+
+public class UserMainCod 
+{
+	public static int countVowels(String a)
+	{
+		int count=0;
+		for(int i=0,i<=a.length();i++)
+		{
+			if(a[i]='a'||a[i]='e'||a[i]='i'||a[i]='o'||a[i]='u')
+			{
+				count++;
+			}
+		}
+		return 0;
+	}
+
+}

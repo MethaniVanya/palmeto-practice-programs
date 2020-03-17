@@ -1,0 +1,10 @@
+
+public class UseMainCode4 {
+	
+	public static int findElement(int a[],int n)
+	{
+		return 0;
+		
+	}
+
+}

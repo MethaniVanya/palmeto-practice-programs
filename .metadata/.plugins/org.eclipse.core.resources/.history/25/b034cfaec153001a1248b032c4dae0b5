@@ -1,0 +1,17 @@
+package setterexamples;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+	public class TestCollection {
+		
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			ApplicationContext context=new ClassPathXmlApplicationContext("Collection.xml");
+			 Collection q1=(Collection)context.getBean("qns");
+			 q1.showAnswers();
+		}
+
+	}
+
+}

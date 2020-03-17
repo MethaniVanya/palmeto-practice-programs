@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="session.jsp">
+Name:<input type="text" name="inputname">
+Password:<input type="text" name="Password">
+age:<input type="text" name="age">
+<input type="submity" value="click here!"></form>
+
+</body>
+</html>

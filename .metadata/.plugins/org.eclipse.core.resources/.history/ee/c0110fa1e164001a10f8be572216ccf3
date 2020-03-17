@@ -1,0 +1,30 @@
+package unittesting;
+
+import org.junit.Before;
+
+public class JunitTestClass {
+	@Before
+	public void preMethod()
+	{
+		System.out.println("this will be exceuted first");
+	}
+
+	
+	@Test
+	public void test2()
+	{
+		System.out.println("this is my test one");
+		
+	}
+	@Test
+	public void test3()
+	{
+		System.out.println("this is my test3");
+	}
+	@After
+	public void postMethod()
+	{
+		System.out.println("this will execute after");
+	}
+	
+}

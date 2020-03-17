@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+</head>
+<body>
+<form action="https://localhost:8081/Webproject/loginServlet1">
+Enter your id:<input type="text" name="login"/><br>
+enter your pass<input type="password" name="pass"/>
+<input type="submit" value="login"/>
+</form>
+</body>
+</html>

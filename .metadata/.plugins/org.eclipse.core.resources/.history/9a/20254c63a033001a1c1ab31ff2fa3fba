@@ -1,0 +1,12 @@
+
+public class MainArea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Ar a=new Ar;
+		a.Area(2);
+		
+	}
+
+}

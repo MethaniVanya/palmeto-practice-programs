@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;tomcat-users.xml&apos; to &apos;LoginServlet.java&apos;&#x0D;&#x0A;- Original project: &apos;Servers&apos;&#x0D;&#x0A;- Destination element: &apos;LoginServlet.java&apos;&#x0D;&#x0A;- Original element: &apos;tomcat-users.xml&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=Webproject/src&lt;{LoginServlet.java" element1="Tomcat v8.5 Server at localhost-config/tomcat-users.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1580969782604" units="0" version="1.0"/>
+</session>

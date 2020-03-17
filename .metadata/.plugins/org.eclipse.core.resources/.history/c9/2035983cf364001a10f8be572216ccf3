@@ -1,0 +1,9 @@
+package unittesting;
+
+
+@Runwith(Categories.class)
+@Categories.IncludeCategory(RegressionTests.class)
+@Suite.SuiteClasses({FunTest.class,FunTest1.class})
+public class TestSuites {
+
+}

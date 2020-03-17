@@ -1,0 +1,9 @@
+package configs;
+
+public class HelloWorldConfig {
+
+	public HelloWorld helloworld()
+	{
+		return new HelloWorld();
+	}
+}
